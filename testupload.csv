@@ -1,5 +1,5 @@
-Name,Desc,Value
-Object1,Imported Via Python API,api.test.csva
-Object2,Imported Via Python API,api.test.csvb
-Object3,Imported Via Python API,api.test.csvc
-Object4,Imported Via Python API,api.test.csvd
+Name,Desc,Value,Type
+Object1fqdn,Imported Via Python API,api.test.csva,fqdn
+Object2ipnetmask,Imported Via Python API,192.168.80.0/24,ip_netmask
+Object3ipwildcard,Imported Via Python API,10.20.1.0/0.0.248.255,ip_wildcard
+Object4iprange,Imported Via Python API,10.0.0.1-10.0.0.4,ip_range
