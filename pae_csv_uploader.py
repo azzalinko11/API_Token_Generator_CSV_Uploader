@@ -58,8 +58,7 @@ with open(csv_file, 'r') as file:
         address_object = {
             'name': row['Name'],
             'description': row['Desc'],
-            #change to ip-mask etc depending on value
-            'fqdn': row['Value']
+            row['Type']: row['Value']
         }
         address_objects.append(address_object)
 
